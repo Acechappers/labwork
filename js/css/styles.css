@@ -1,0 +1,46 @@
+body {
+  background: #f99;
+  margin: 0em;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0em;
+  padding: 0em;
+  text-align: center;
+}
+
+nav a {
+  background: red;
+  color: blue;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  transition: 3s;
+  width: 15%;
+  float: right;
+
+}
+
+nav a:hover {
+  background: white;
+  text-decoration: underline;
+}
+
+header {
+  margin: 0em;
+}
+
+main {
+  margin: 0em;
+  width: 85%;
+  padding-left: 2em;
+  padding-right: 2em;
+  float: left;
+  box-sizing: inherit;
+
+}
